@@ -1,0 +1,56 @@
+# Ignore Maven's target directory
+/target/
+
+# Ignore Gradle build directory (if applicable)
+/build/
+
+# Ignore Eclipse-specific metadata files
+/.classpath
+/.project
+/.settings/
+
+# Ignore IntelliJ IDEA-specific files (optional, if IntelliJ is also used)
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and OS-specific files
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore compiled classes and JARs
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore config or secret files (if any)
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Ignore test reports
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# Ignore dependency directories
+/.mvn/
+/node_modules/
+
+# Ignore generated files from IDEs or build tools
+/.factorypath
+/.springBeans
+/.vscode/
+
+# Ignore IDE-specific working directories and caches (if used)
+/.gradle/
+/out/
